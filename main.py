@@ -1,7 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
-from snils import snils
+from config import token
 
+snils = ''
 url = 'https://gumrf.ru/reserve/abitur/hod/?type=111'
 
 m = []
